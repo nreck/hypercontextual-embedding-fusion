@@ -8,11 +8,11 @@ Traditional retrieval-augmented generation (RAG) methods rely heavily on externa
 
 ## Conceptual Overview
 
-HEF fundamentally differs from existing methods by removing the explicit retrieval step altogether. It introduces modular embeddings—Contextual Bias Embeddings (CBEs)—optimized offline and instantly integrated into the LLM at runtime. This fusion process primes the model immediately, providing the illusion of having been finely tuned for each specific context without actual model retraining.
+HEF fundamentally differs from existing methods by removing the explicit retrieval step altogether. It introduces modular embeddings—Contextual Bias Embeddings (CBEs)—optimized pre-runtime and instantly integrated into the LLM at runtime. This fusion process primes the model immediately, providing the illusion of having been finely tuned for each specific context without actual model retraining.
 
 ## Methodology
 
-### Offline Knowledge Encoding
+### Pre-runtime Knowledge Encoding
 
 - **Knowledge Structuring:** Relevant knowledge about entities, such as companies, products, or individual profiles, is collected and structured.
 - **Embedding Generation:** This structured knowledge is converted into compact, optimized CBEs tailored specifically for compatibility with the target LLM.
@@ -37,7 +37,7 @@ HEF significantly outperforms traditional RAG methods by eliminating retrieval t
 
 ## Discussion
 
-The concept behind HEF represents a paradigm shift in how contextual knowledge is integrated into LLMs. By replacing retrieval processes with direct embedding fusion, HEF provides a powerful solution for real-time applications such as personalized AI interactions, company-specific agents, and immediate recommendation systems. The method ensures consistent performance regardless of knowledge scale and complexity.
+The concept behind HEF represents a shift in how contextual knowledge is integrated into LLMs. By replacing retrieval processes with direct embedding fusion, HEF provides a powerful solution for real-time applications such as personalized AI interactions, company-specific agents, and immediate recommendation systems. The method ensures consistent performance regardless of knowledge scale and complexity.
 
 ## Conclusion
 
