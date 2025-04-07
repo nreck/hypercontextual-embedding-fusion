@@ -1,7 +1,5 @@
 # HyperContextual Embedding Fusion (HEF)
 
-## Abstract
-
 This paper introduces **HyperContextual Embedding Fusion (HEF)**, an innovative approach for instantaneous, retrieval-free knowledge activation in Large Language Models (LLMs). HEF encodes specific knowledge about entities directly into Contextual Bias Embeddings (CBEs), which seamlessly fuse into the model's internal states at runtime, completely eliminating traditional retrieval latency.
 
 ## Introduction
@@ -16,27 +14,22 @@ HEF fundamentally differs from existing methods by removing the explicit retriev
 
 ### Offline Knowledge Encoding
 
-Knowledge Structuring: Relevant knowledge about entities, such as companies, products, or individual profiles, is collected and structured.
-
-Embedding Generation: This structured knowledge is converted into compact, optimized CBEs tailored specifically for compatibility with the target LLM.
+- **Knowledge Structuring:** Relevant knowledge about entities, such as companies, products, or individual profiles, is collected and structured.
+- **Embedding Generation:** This structured knowledge is converted into compact, optimized CBEs tailored specifically for compatibility with the target LLM.
 
 ### Instant Runtime Fusion
 
-Direct Integration: CBEs are instantly fused into the model's hidden states via straightforward vector operations, activating relevant contextual knowledge in milliseconds.
-
-Dynamic Context Switching: Contexts can be instantly switched by simply substituting one set of embeddings with another, enabling rapid transitions between different knowledge sets.
+- **Direct Integration:** CBEs are instantly fused into the model's hidden states via straightforward vector operations, activating relevant contextual knowledge in milliseconds.
+- **Dynamic Context Switching:** Contexts can be instantly switched by simply substituting one set of embeddings with another, enabling rapid transitions between different knowledge sets.
 
 ## Advantages of HEF
 
 HEF provides substantial benefits over traditional retrieval-based approaches:
 
-Zero Retrieval Latency: Contextual information is instantly available without any external lookups.
-
-Scalable Personalization: Efficiently handles a vast number of contexts, each instantly activated.
-
-Low Complexity: Simplifies system design by removing external databases and reducing runtime complexity.
-
-Resource Efficiency: Minimal memory and computational overhead, making it highly suitable for resource-constrained environments.
+- **Zero Retrieval Latency:** Contextual information is instantly available without any external lookups.
+- **Scalable Personalization:** Efficiently handles a vast number of contexts, each instantly activated.
+- **Low Complexity:** Simplifies system design by removing external databases and reducing runtime complexity.
+- **Resource Efficiency:** Minimal memory and computational overhead, making it highly suitable for resource-constrained environments.
 
 ## Comparison with Traditional RAG
 
