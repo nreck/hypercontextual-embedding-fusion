@@ -1,6 +1,6 @@
 # HyperContextual Embedding Fusion (HEF)
 
-This paper introduces **HyperContextual Embedding Fusion (HEF)**, an innovative approach for instantaneous, retrieval-free knowledge activation in Large Language Models (LLMs). HEF encodes specific knowledge about entities directly into Contextual Bias Embeddings (CBEs), which seamlessly fuse into the model's internal states at runtime, completely eliminating traditional retrieval latency.
+This document introduces **HyperContextual Embedding Fusion (HEF)**, a new approach for instantaneous, retrieval-free knowledge activation in Large Language Models (LLMs). HEF encodes specific knowledge about entities directly into Contextual Bias Embeddings (CBEs), which seamlessly fuse into the model's internal states at runtime, completely eliminating traditional retrieval latency.
 
 ## Introduction
 
